@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0A0A0A;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+::selection {
+  background: #CCFF00;
+  color: #0A0A0A;
+}
